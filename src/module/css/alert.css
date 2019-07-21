@@ -1,0 +1,165 @@
+.alert-wrapper {
+  position: absolute
+}
+
+.alert-box,
+.alert-box * {
+    box-sizing: border-box;
+}
+
+.alert-box {
+    position: fixed;
+    background: rgba(42,45,50,0.85);
+    padding: 22px;
+    line-height: 1.4;
+    z-index: 1000;
+    pointer-events: none;
+    color: rgba(250,251,255,0.95);
+    font-size: 100%;
+    font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+    max-width: 300px;
+    -webkit-transition: top .4s, bottom .4s;
+    transition: top .4s, bottom .4s;
+}
+
+.alert-box.alert-show {
+    pointer-events: auto;
+}
+
+.alert-box a {
+    color: inherit;
+    opacity: 0.7;
+    font-weight: 700;
+}
+
+.alert-box a:hover,
+.alert-box a:focus {
+    opacity: 1;
+}
+
+.alert-box p {
+    margin: 0;
+}
+
+.alert-box.alert-show,
+.alert-box.alert-visible {
+    pointer-events: auto;
+}
+
+.alert-close {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    overflow: hidden;
+    text-indent: 100%;
+    cursor: pointer;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.alert-close:hover,
+.alert-close:focus {
+    outline: none;
+}
+
+.alert-close::before,
+.alert-close::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 60%;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+}
+
+.alert-close:hover::before,
+.alert-close:hover::after {
+    background: #fff;
+}
+
+.alert-close::before {
+    -webkit-transform: translate(-50%,-50%) rotate(45deg);
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+
+.alert-close::after {
+    -webkit-transform: translate(-50%,-50%) rotate(-45deg);
+    transform: translate(-50%,-50%) rotate(-45deg);
+}
+
+/* positions */
+
+.alert-bottom-left {
+    top: auto;
+    right: auto;
+    bottom: 30px;
+    left: 30px;
+}
+.alert-top-left {
+    top: 30px;
+    right: auto;
+    bottom: auto;
+    left: 30px;
+}
+.alert-top-right {
+    top: 30px;
+    right: 30px;
+    bottom: auto;
+    left: auto;
+}
+.alert-bottom-right { /*default*/
+    top: auto;
+    right: 30px;
+    bottom: 30px;
+    left: auto;
+}
+.alert-bottom {
+    width: 100%;
+    max-width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto;
+}
+.alert-top {
+    width: 100%;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+}
+
+/* conditions */
+
+.alert-info {
+    background: #00A2D3;
+    color: #fff;
+}
+.alert-success {
+    background: #27AE60;
+    color: #fff;
+}
+.alert-warning {
+    background: #F1C40F;
+    color: #fff;
+}
+.alert-error {
+    background: #E74C3C;
+    color: #fff;
+}
+
+[class^="alert-effect-"].alert-hide,
+[class*=" alert-effect-"].alert-hide {
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+/* height measurement helper */
+.alert-box-height {
+    visibility: hidden;
+    position: fixed;
+}
