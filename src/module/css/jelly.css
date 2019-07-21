@@ -1,25 +1,25 @@
 /* Jelly */
 
-.s-alert-effect-jelly a {
+.alert-effect-jelly a {
   color: #fff;
 }
 
-.s-alert-effect-jelly a:hover,
-.s-alert-effect-jelly a:focus {
+.alert-effect-jelly a:hover,
+.alert-effect-jelly a:focus {
   color: #fff;
 }
 
-.s-alert-effect-jelly .s-alert-close::before,
-.s-alert-effect-jelly .s-alert-close::after {
+.alert-effect-jelly .alert-close::before,
+.alert-effect-jelly .alert-close::after {
   background: #fff;
 }
 
-.s-alert-effect-jelly .s-alert-close:hover::before,
-.s-alert-effect-jelly .s-alert-close:hover::after {
+.alert-effect-jelly .alert-close:hover::before,
+.alert-effect-jelly .alert-close:hover::after {
   background: #fff;
 }
 
-.s-alert-effect-jelly.s-alert-show {
+.alert-effect-jelly.alert-show {
   -webkit-animation-name: animJelly;
   animation-name: animJelly;
   -webkit-animation-duration: 1s;
@@ -28,7 +28,7 @@
   animation-timing-function: linear;
 }
 
-.s-alert-effect-jelly.s-alert-hide {
+.alert-effect-jelly.alert-hide {
   -webkit-animation-name: animFade;
   animation-name: animFade;
   -webkit-animation-duration: 0.3s;

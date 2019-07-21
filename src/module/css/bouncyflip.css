@@ -1,50 +1,50 @@
 /* Bouncy Flip adapted from animate.css by Dan Eden: http://daneden.github.io/animate.css/ */
 
-.s-alert-bottom-left.s-alert-effect-bouncyflip,
-.s-alert-bottom-right.s-alert-effect-bouncyflip,
-.s-alert-bottom.s-alert-effect-bouncyflip {
+.alert-bottom-left.alert-effect-bouncyflip,
+.alert-bottom-right.alert-effect-bouncyflip,
+.alert-bottom.alert-effect-bouncyflip {
     -webkit-transform-origin: 50% 100%;
     transform-origin: 50% 100%;
 }
-.s-alert-top-left.s-alert-effect-bouncyflip,
-.s-alert-top-right.s-alert-effect-bouncyflip
-.s-alert-top.s-alert-effect-bouncyflip {
+.alert-top-left.alert-effect-bouncyflip,
+.alert-top-right.alert-effect-bouncyflip
+.alert-top.alert-effect-bouncyflip {
     -webkit-transform-origin: 50% 0%;
     transform-origin: 50% 0%;
 }
 
-.s-alert-effect-bouncyflip p {
+.alert-effect-bouncyflip p {
     padding: 0.5em 0.8em 0.5em 0.8em;
 }
 
-.s-alert-effect-bouncyflip .s-alert-close::after,
-.s-alert-effect-bouncyflip .s-alert-close::before {
+.alert-effect-bouncyflip .alert-close::after,
+.alert-effect-bouncyflip .alert-close::before {
     background: #fff;
 }
 
-.s-alert-effect-bouncyflip .s-alert-close:hover::after,
-.s-alert-effect-bouncyflip .s-alert-close:hover::before {
+.alert-effect-bouncyflip .alert-close:hover::after,
+.alert-effect-bouncyflip .alert-close:hover::before {
     background: #fff;
 }
 
-.s-alert-top-left.s-alert-effect-bouncyflip.s-alert-hide,
-.s-alert-top-right.s-alert-effect-bouncyflip.s-alert-hide,
-.s-alert-top-left.s-alert-effect-bouncyflip.s-alert-show,
-.s-alert-top-right.s-alert-effect-bouncyflip.s-alert-show,
-.s-alert-top.s-alert-effect-bouncyflip.s-alert-hide,
-.s-alert-top.s-alert-effect-bouncyflip.s-alert-show  {
+.alert-top-left.alert-effect-bouncyflip.alert-hide,
+.alert-top-right.alert-effect-bouncyflip.alert-hide,
+.alert-top-left.alert-effect-bouncyflip.alert-show,
+.alert-top-right.alert-effect-bouncyflip.alert-show,
+.alert-top.alert-effect-bouncyflip.alert-hide,
+.alert-top.alert-effect-bouncyflip.alert-show  {
     -webkit-animation-name: flipInXTop;
     animation-name: flipInXTop;
     -webkit-animation-duration: 0.8s;
     animation-duration: 0.8s;
 }
 
-.s-alert-bottom-left.s-alert-effect-bouncyflip.s-alert-hide,
-.s-alert-bottom-right.s-alert-effect-bouncyflip.s-alert-hide,
-.s-alert-bottom-left.s-alert-effect-bouncyflip.s-alert-show,
-.s-alert-bottom-right.s-alert-effect-bouncyflip.s-alert-show,
-.s-alert-bottom.s-alert-effect-bouncyflip.s-alert-show,
-.s-alert-bottom.s-alert-effect-bouncyflip.s-alert-hide {
+.alert-bottom-left.alert-effect-bouncyflip.alert-hide,
+.alert-bottom-right.alert-effect-bouncyflip.alert-hide,
+.alert-bottom-left.alert-effect-bouncyflip.alert-show,
+.alert-bottom-right.alert-effect-bouncyflip.alert-show,
+.alert-bottom.alert-effect-bouncyflip.alert-show,
+.alert-bottom.alert-effect-bouncyflip.alert-hide {
     -webkit-animation-name: flipInXBottom;
     animation-name: flipInXBottom;
     -webkit-animation-duration: 0.8s;
@@ -177,17 +177,17 @@
     }
 }
 
-.s-alert-top-right.s-alert-effect-bouncyflip.s-alert-hide,
-.s-alert-top-left.s-alert-effect-bouncyflip.s-alert-hide,
-.s-alert-top.s-alert-effect-bouncyflip.s-alert-hide {
+.alert-top-right.alert-effect-bouncyflip.alert-hide,
+.alert-top-left.alert-effect-bouncyflip.alert-hide,
+.alert-top.alert-effect-bouncyflip.alert-hide {
     -webkit-animation-name: flipInXSimpleTop;
     animation-name: flipInXSimpleTop;
     -webkit-animation-duration: 0.3s;
     animation-duration: 0.3s;
 }
-.s-alert-bottom-right.s-alert-effect-bouncyflip.s-alert-hide,
-.s-alert-bottom-left.s-alert-effect-bouncyflip.s-alert-hide,
-.s-alert-bottom.s-alert-effect-bouncyflip.s-alert-hide  {
+.alert-bottom-right.alert-effect-bouncyflip.alert-hide,
+.alert-bottom-left.alert-effect-bouncyflip.alert-hide,
+.alert-bottom.alert-effect-bouncyflip.alert-hide  {
     -webkit-animation-name: flipInXSimpleBottom;
     animation-name: flipInXSimpleBottom;
     -webkit-animation-duration: 0.3s;
@@ -241,7 +241,7 @@
 }
 
 @media screen and (max-width: 25em) {
-    .s-alert-attached {
+    .alert-attached {
         left: 30px;
         max-width: none;
         right: 30px;

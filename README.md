@@ -3,4 +3,4 @@
 React Hooks and Redux
 
 ### Reference
-* [react-s-alert](https://github.com/juliancwirko/react-s-alert)
+* [react-alert](https://github.com/juliancwirko/react-alert)

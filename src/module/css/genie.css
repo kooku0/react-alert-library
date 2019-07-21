@@ -1,18 +1,18 @@
 
 /* Genie */
 
-.s-alert-effect-genie .s-alert-close::after,
-.s-alert-effect-genie .s-alert-close::before {
+.alert-effect-genie .alert-close::after,
+.alert-effect-genie .alert-close::before {
     background: #fff;
 }
 
-.s-alert-effect-genie .s-alert-close:hover::after,
-.s-alert-effect-genie .s-alert-close:hover::before {
+.alert-effect-genie .alert-close:hover::after,
+.alert-effect-genie .alert-close:hover::before {
     background: #fff;
 }
 
-.s-alert-effect-genie.s-alert-show,
-.s-alert-effect-genie.s-alert-hide {
+.alert-effect-genie.alert-show,
+.alert-effect-genie.alert-hide {
     -webkit-animation-name: animGenie;
     animation-name: animGenie;
     -webkit-animation-duration: 0.4s;

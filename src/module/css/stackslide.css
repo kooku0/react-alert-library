@@ -1,36 +1,36 @@
 /* stackslide (top, bottom - full width) */
 
-.s-alert-effect-stackslide .s-alert-close {
+.alert-effect-stackslide .alert-close {
   background: transparent;
 }
 
-.s-alert-effect-stackslide .s-alert-close::before,
-.s-alert-effect-stackslide .s-alert-close::after {
+.alert-effect-stackslide .alert-close::before,
+.alert-effect-stackslide .alert-close::after {
   background: #fff;
 }
 
-.s-alert-effect-stackslide p {
+.alert-effect-stackslide p {
   padding: 0 1.5em;
   display: inline-block;
 }
 
-.s-alert-effect-stackslide .s-alert-close::before,
-.s-alert-effect-stackslide .s-alert-close::after {
+.alert-effect-stackslide .alert-close::before,
+.alert-effect-stackslide .alert-close::after {
   width: 2px;
   background: #fff;
 }
 
-.s-alert-effect-stackslide .s-alert-close:hover::before,
-.s-alert-effect-stackslide .s-alert-close:hover::after {
+.alert-effect-stackslide .alert-close:hover::before,
+.alert-effect-stackslide .alert-close:hover::after {
   background: #fff;
 }
 
-.s-alert-top-left.s-alert-effect-stackslide.s-alert-show,
-.s-alert-top-right.s-alert-effect-stackslide.s-alert-show,
-.s-alert-top-left.s-alert-effect-stackslide.s-alert-hide,
-.s-alert-top-right.s-alert-effect-stackslide.s-alert-hide,
-.s-alert-top.s-alert-effect-stackslide.s-alert-show,
-.s-alert-top.s-alert-effect-stackslide.s-alert-hide {
+.alert-top-left.alert-effect-stackslide.alert-show,
+.alert-top-right.alert-effect-stackslide.alert-show,
+.alert-top-left.alert-effect-stackslide.alert-hide,
+.alert-top-right.alert-effect-stackslide.alert-hide,
+.alert-top.alert-effect-stackslide.alert-show,
+.alert-top.alert-effect-stackslide.alert-hide {
   -webkit-animation-name: animSlideTop;
   animation-name: animSlideTop;
   -webkit-animation-duration: 0.3s;
@@ -47,12 +47,12 @@
   100% { -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0); }
 }
 
-.s-alert-bottom-left.s-alert-effect-stackslide.s-alert-show,
-.s-alert-bottom-right.s-alert-effect-stackslide.s-alert-show,
-.s-alert-bottom-left.s-alert-effect-stackslide.s-alert-hide,
-.s-alert-bottom-right.s-alert-effect-stackslide.s-alert-hide,
-.s-alert-bottom.s-alert-effect-stackslide.s-alert-show,
-.s-alert-bottom.s-alert-effect-stackslide.s-alert-hide {
+.alert-bottom-left.alert-effect-stackslide.alert-show,
+.alert-bottom-right.alert-effect-stackslide.alert-show,
+.alert-bottom-left.alert-effect-stackslide.alert-hide,
+.alert-bottom-right.alert-effect-stackslide.alert-hide,
+.alert-bottom.alert-effect-stackslide.alert-show,
+.alert-bottom.alert-effect-stackslide.alert-hide {
   -webkit-animation-name: animSlideBottom;
   animation-name: animSlideBottom;
   -webkit-animation-duration: 0.3s;

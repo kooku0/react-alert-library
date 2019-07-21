@@ -1,26 +1,26 @@
 /* Scale */
 
-.s-alert-effect-scale a {
+.alert-effect-scale a {
   color: #fff;
 }
 
-.s-alert-effect-scale a:hover,
-.s-alert-effect-scale a:focus {
+.alert-effect-scale a:hover,
+.alert-effect-scale a:focus {
   color: #fff;
 }
 
-.s-alert-effect-scale .s-alert-close::before,
-.s-alert-effect-scale .s-alert-close::after {
+.alert-effect-scale .alert-close::before,
+.alert-effect-scale .alert-close::after {
   background: #fff;
 }
 
-.s-alert-effect-scale .s-alert-close:hover::before,
-.s-alert-effect-scale .s-alert-close:hover::after {
+.alert-effect-scale .alert-close:hover::before,
+.alert-effect-scale .alert-close:hover::after {
   background: #fff;
 }
 
-.s-alert-effect-scale.s-alert-show,
-.s-alert-effect-scale.s-alert-hide {
+.alert-effect-scale.alert-show,
+.alert-effect-scale.alert-hide {
   -webkit-animation-name: animScale;
   animation-name: animScale;
   -webkit-animation-duration: 0.25s;
